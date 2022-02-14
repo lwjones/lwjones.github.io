@@ -24,6 +24,10 @@ h2 {
   font-size: 36px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p, a, span, button {
   font-size: 16px;
 }
@@ -39,10 +43,13 @@ ul, #hero-text, section, footer {
 
 /** Navigation start */
 
+nav {
+  background-color: #4361EE;
+}
+
 ul {
   list-style: none;
   overflow: hidden;
-  background-color: #4361EE;
 }
 
 #logo {
@@ -161,3 +168,44 @@ section h2 {
 }
 
 /** About end */
+
+
+/** Portfolio start */
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex-grow: 1;
+  margin: 20px;
+  width: 45%;
+}
+
+.project img {
+  max-width: 100%;
+  border-style: inset;
+  border: 10px solid #4895EF;
+}
+
+.featured {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.project-content {
+  position: relative;
+}
+
+.project-desc {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #4895EF;
+  padding: 10px;
+}
+
+
+/** Portfolio end */
