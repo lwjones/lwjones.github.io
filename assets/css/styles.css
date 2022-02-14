@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: 'Lato', verdana, sans-serif;
+}
+
+p, a, span, button {
+  font-size: 16px;
+}
+
+ul, #hero-text, section, footer {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/** Navigation start */
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  background-color: #4361EE;
+}
+
+#logo {
+  float: left;
+  font-family: 'Nunito', 'Lato', verdana, sans-serif;
+}
+
+.nav-link {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #4895EF;
+}
+
+#logo-img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  vertical-align: text-top;
+  border-radius: 20%;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/** Navigation end */
+
+
+/** Hero start */
+
+#hero {
+  display: flex;
+  flex-flow: column;
+}
+
+#hero {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  background-image:
+    linear-gradient(rgba(67,97,238,0.5), rgba(67,97,238,0.5)),
+    url(.././images/IMG_1141.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-text {
+  position: relative;
+  top: 30vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-height: 600px) {
+  #hero {
+    height: 100vh;
+  }
+}
