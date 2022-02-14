@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/50df43e027.js" crossorigin="anonymous"></script>  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
@@ -20,15 +20,15 @@
         lwjones
       </a>
     </li>
-    <li>
-      <a href="#about" id="about" class="nav-link">About</a>
-    </li>
-    <li>
-      <a href="#portfolio" id="portfolio" class="nav-link">Portfolio</a>
-    </li>
-    <li>
-      <a href="#contact" id="contact" class="nav-link">Contact</a>
-    </li>
+  <li>
+    <a href="#contact" id="contact" class="nav-link">Contact</a>
+  </li>
+  <li>
+    <a href="#portfolio" id="portfolio" class="nav-link">Portfolio</a>
+  </li>
+  <li>
+    <a href="#about" id="about" class="nav-link">About</a>
+  </li>
   </ul>
 </nav>
 
@@ -111,8 +111,18 @@
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Github</p>
-  <p>LinkedIn</p>
+  <div class="contact-links">
+    <a href="mailto:lwjones@hey.com">
+      <div class="contact-link contact-email"><span><i class="fas fa-paper-plane"></i> Email</span></div>
+    </a>
+    <a href="https://github.com/lwjones">
+      <div class="contact-link contact-github"><span><i class="fab fa-github"></i> Github</span></div>
+    </a>
+    <a href=" www.linkedin.com/in/lwjones">
+      <div class="contact-link contact-linkedin"><span><i class="fab fa-linkedin-in"></i> LinkedIn</span></div>
+    </a>
+  </div>
+
 </section>
 
 <footer>
@@ -122,8 +132,9 @@
   </div>
 
   <div id="quick-links">
-    <p class="quick-link github"></p>
-    <p class="quick-link linkedin"></p>
+    <div class="quick-link github"><i class="fa-brands fa-github-square"></i></div>
+    <div class="quick-link linkedin"><i class="fa-brands fa-linkedin"></i></div>
+    <div class="quick-link email"><i class="fa-solid fa-paper-plane"><a href="mailto:lwjones@hey.com">Email</a></i></div>
   </div>
 
 </footer>
