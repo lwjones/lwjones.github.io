@@ -32,7 +32,7 @@ p, a, span, button {
   font-size: 16px;
 }
 
-ul, #hero-text, section, footer {
+ul, #hero-text, section, .credits {
   max-width: 860px;
   margin-left: auto;
   margin-right: auto;
@@ -182,13 +182,22 @@ section h2 {
   flex-grow: 1;
   margin: 20px;
   width: 45%;
+  overflow: hidden;
 }
 
 .project img {
+  /* background-color: black; */
+  opacity: .6;
   max-width: 100%;
   border-style: inset;
-  border: 10px solid #4895EF;
+  border: 10px inset #4895EF;
   border-radius: 5px;
+  transition: transform .2s;
+}
+
+.project img:hover {
+  opacity: 1;
+  transform: scale(1.3);
 }
 
 .featured {
