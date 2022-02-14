@@ -218,6 +218,10 @@ section h2 {
   border-radius: 5px;
 }
 
+.project a, .project a:visited, .project a:hover, .project a:active {
+  color: black;
+}
+
 /** Portfolio end */
 
 
