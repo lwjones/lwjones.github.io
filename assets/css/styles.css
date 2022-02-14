@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6, p, a, span {
   font-family: 'Lato', verdana, sans-serif;
 }
 
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
 p, a, span, button {
   font-size: 16px;
 }
@@ -123,3 +131,33 @@ button:hover {
     height: 100vh;
   }
 }
+
+/** Hero end */
+
+
+/** Sections start */
+
+section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+section h2 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+/** Sections end */
+
+
+/** About start */
+
+#about p {
+  max-width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** About end */
