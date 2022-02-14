@@ -189,8 +189,6 @@ section h2 {
   /* background-color: black; */
   opacity: .6;
   max-width: 100%;
-  border-style: inset;
-  border: 10px inset #4895EF;
   border-radius: 5px;
   transition: transform .2s;
 }
